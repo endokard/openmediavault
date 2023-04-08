@@ -1,7 +1,7 @@
 # openmediavault
 Some configs for OVM installed on old notebook
 
-1)Change behaivor on idl close
+1)Change behaviour on idl close
 
 2)Install upower
 
