@@ -1,0 +1,15 @@
+1)To save energy, laptop shoud work with closed lid, so, let's tell Debina do nothing on lid close
+
+vi /etc/systemd/logind.conf
+HandleLidSwitch=ignore
+
+systemctl restart systemd-logind
+
+2)Let's monitor battery level, it servs us like UPS
+
+apt install upower
+systemctl enable upower
+vi /etc/UPower/UPower.conf
+
+#upower -e
+#upower -i batt_name
